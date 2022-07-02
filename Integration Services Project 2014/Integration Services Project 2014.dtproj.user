@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataTransformationsUserConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <ServerName>10.10.14.34</ServerName>
+        <PathOnServer>/SSISDB/Import_Logs/Integration Services Project 2014</PathOnServer>
+        <Run64BitRuntime>false</Run64BitRuntime>
+        <UserIDs />
+        <UserPasswords />
+        <OfflineMode>false</OfflineMode>
+        <ProgressReporting>true</ProgressReporting>
+        <ParameterConfigurationSensitiveValues>
+          <ConfigurationSetting>
+            <Id>LastModifiedTime</Id>
+            <Name>LastModifiedTime</Name>
+            <Value xsi:type="xsd:dateTime">2017-09-13T14:17:26.6754207Z</Value>
+          </ConfigurationSetting>
+        </ParameterConfigurationSensitiveValues>
+      </Options>
+    </Configuration>
+  </Configurations>
+</DataTransformationsUserConfiguration>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectInfo>
+    <Name>Integration Services Project 2014</Name>
+    <LastWriteTime>2017-09-13T14:47:13.1100545Z</LastWriteTime>
+    <LastKnownProtectionLevel>DontSaveSensitive</LastKnownProtectionLevel>
+  </ProjectInfo>
+  <LastBuildInfos>
+    <ProjectBuildItemInfo>
+      <Name>Package.dtsx</Name>
+      <LastWriteTime>2017-09-13T14:47:13.060053Z</LastWriteTime>
+      <LastKnownProtectionLevel>DontSaveSensitive</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+  </LastBuildInfos>
+</BuildLog>
