@@ -51,7 +51,7 @@
                 <SSIS:Property SSIS:Name="ProtectionLevel">0</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
-                <SSIS:Parameter SSIS:Name="CM.10.10.14.34.GwGLog_Warehouse.ssis_usr.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.xx.xx.xx.xx.Log_Warehouse.ssis_usr.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -62,11 +62,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=10.10.14.34;User ID=ssis_usr;Initial Catalog=GwGLog_Warehouse;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=xx.xx.xx.xx;User ID=ssis_usr;Initial Catalog=Log_Warehouse;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.10.10.14.34.GwGLog_Warehouse.ssis_usr.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.xx.xx.xx.xx.Log_Warehouse.ssis_usr.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -77,11 +77,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">GwGLog_Warehouse</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Log_Warehouse</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.10.10.14.34.GwGLog_Warehouse.ssis_usr.Password">
+                <SSIS:Parameter SSIS:Name="CM.xx.xx.xx.xx.Log_Warehouse.ssis_usr.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -95,7 +95,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.10.10.14.34.GwGLog_Warehouse.ssis_usr.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.xx.xx.xx.xx.Log_Warehouse.ssis_usr.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -110,7 +110,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.10.10.14.34.GwGLog_Warehouse.ssis_usr.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.xx.xx.xx.xx.Log_Warehouse.ssis_usr.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -121,11 +121,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">10.10.14.34</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">xx.xx.xx.xx</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.10.10.14.34.GwGLog_Warehouse.ssis_usr.UserName">
+                <SSIS:Parameter SSIS:Name="CM.xx.xx.xx.xx.Log_Warehouse.ssis_usr.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -140,7 +140,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.10.10.14.64\GR.My_GR_Search_2011.DB_AMS01_GR_DA.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.xx.xx.xx.xx\xx.dbname.dbuser.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -151,11 +151,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=10.10.14.64\GR;User ID=DB_AMS01_GR_DA;Initial Catalog=My_GR_Search_2011;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=xx.xx.xx.xx\xx;User ID=dbuser;Initial Catalog=dbname;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.10.10.14.64\GR.My_GR_Search_2011.DB_AMS01_GR_DA.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.xx.xx.xx.xx\xx.dbname.dbuser.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -166,11 +166,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">My_GR_Search_2011</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">dbname</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.10.10.14.64\GR.My_GR_Search_2011.DB_AMS01_GR_DA.Password">
+                <SSIS:Parameter SSIS:Name="CM.xx.xx.xx.xx\xx.dbname.dbuser.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -184,7 +184,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.10.10.14.64\GR.My_GR_Search_2011.DB_AMS01_GR_DA.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.xx.xx.xx.xx\xx.dbname.dbuser.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -199,7 +199,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.10.10.14.64\GR.My_GR_Search_2011.DB_AMS01_GR_DA.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.xx.xx.xx.xx\xx.dbname.dbuser.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -210,11 +210,11 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">10.10.14.64\GR</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">xx.xx.xx.xx\xx</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.10.10.14.64\GR.My_GR_Search_2011.DB_AMS01_GR_DA.UserName">
+                <SSIS:Parameter SSIS:Name="CM.xx.xx.xx.xx\xx.dbname.dbuser.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -225,7 +225,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">DB_AMS01_GR_DA</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">dbuser</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>

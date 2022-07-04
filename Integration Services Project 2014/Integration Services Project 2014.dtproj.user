@@ -4,7 +4,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <ServerName>10.10.14.34</ServerName>
+        <ServerName>xx.xx.xx.xx</ServerName>
         <PathOnServer>/SSISDB/Import_Logs/Integration Services Project 2014</PathOnServer>
         <Run64BitRuntime>false</Run64BitRuntime>
         <UserIDs />

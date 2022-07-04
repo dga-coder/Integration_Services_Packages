@@ -18,13 +18,13 @@
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[10.10.14.34.GwGLog_Warehouse.ssis_usr]"
+      DTS:refId="Package.ConnectionManagers[xx.xx.xx.xx.Log_Warehouse.ssis_usr]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{53283DB3-EB5F-49BF-82CF-1F8DDB1B7893}"
-      DTS:ObjectName="10.10.14.34.GwGLog_Warehouse.ssis_usr">
+      DTS:ObjectName="xx.xx.xx.xx.Log_Warehouse.ssis_usr">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=10.10.14.34;User ID=ssis_usr;Initial Catalog=GwGLog_Warehouse;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=xx.xx.xx.xx;User ID=ssis_usr;Initial Catalog=Log_Warehouse;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"></DTS:Password>
@@ -32,13 +32,13 @@
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[10.10.14.64\GR.My_GR_Search_2011.DB_AMS01_GR_DA]"
+      DTS:refId="Package.ConnectionManagers[xx.xx.xx.xx\xx.dbname.dbuser]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{246AF993-D6E7-4CC7-A1CA-6C294236EF72}"
-      DTS:ObjectName="10.10.14.64\GR.My_GR_Search_2011.DB_AMS01_GR_DA">
+      DTS:ObjectName="xx.xx.xx.xx\xx.dbname.dbuser">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=10.10.14.64\GR;User ID=DB_AMS01_GR_DA;Initial Catalog=My_GR_Search_2011;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          DTS:ConnectionString="Data Source=xx.xx.xx.xx\xx;User ID=dbuser;Initial Catalog=dbname;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"></DTS:Password>
@@ -121,8 +121,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\Destination DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[10.10.14.34.GwGLog_Warehouse.ssis_usr]"
-                  connectionManagerRefId="Package.ConnectionManagers[10.10.14.34.GwGLog_Warehouse.ssis_usr]"
+                  connectionManagerID="Package.ConnectionManagers[xx.xx.xx.xx.Log_Warehouse.ssis_usr]"
+                  connectionManagerRefId="Package.ConnectionManagers[xx.xx.xx.xx.Log_Warehouse.ssis_usr]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -289,7 +289,7 @@
       ,[xmlusername]
       ,[requestxml]
       ,[AppInfo]
-  FROM [GwGLog_Warehouse].[dbo].[GwGLogs] where [db_source]='GR' and CONVERT(date, CreateDate) &gt; = CONVERT(date, GETDATE())</property>
+  FROM [Log_Warehouse].[dbo].[GwGLogs] where [db_source]='GR' and CONVERT(date, CreateDate) &gt; = CONVERT(date, GETDATE())</property>
                 <property
                   dataType="System.String"
                   description="Specifies a SQL statement that uses parameters to generate the lookup table."
@@ -303,7 +303,7 @@
       ,[xmlusername]
       ,[requestxml]
       ,[AppInfo]
-  FROM [GwGLog_Warehouse].[dbo].[GwGLogs] where [db_source]='GR' and CONVERT(date, CreateDate) &gt; = CONVERT(date, GETDATE())) [refTable]
+  FROM [Log_Warehouse].[dbo].[GwGLogs] where [db_source]='GR' and CONVERT(date, CreateDate) &gt; = CONVERT(date, GETDATE())) [refTable]
 where [refTable].[LogID] = ? and [refTable].[db_source] = ?</property>
                 <property
                   dataType="System.Int32"
@@ -353,8 +353,8 @@ where [refTable].[LogID] = ? and [refTable].[db_source] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow Task\Lookup.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[10.10.14.34.GwGLog_Warehouse.ssis_usr]"
-                  connectionManagerRefId="Package.ConnectionManagers[10.10.14.34.GwGLog_Warehouse.ssis_usr]"
+                  connectionManagerID="Package.ConnectionManagers[xx.xx.xx.xx.Log_Warehouse.ssis_usr]"
+                  connectionManagerRefId="Package.ConnectionManagers[xx.xx.xx.xx.Log_Warehouse.ssis_usr]"
                   description="Connection manager used to access lookup data."
                   name="OleDbConnection" />
               </connections>
@@ -493,8 +493,8 @@ where [refTable].[LogID] = ? and [refTable].[db_source] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow Task\Source DB.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[10.10.14.64\GR.My_GR_Search_2011.DB_AMS01_GR_DA]"
-                  connectionManagerRefId="Package.ConnectionManagers[10.10.14.64\GR.My_GR_Search_2011.DB_AMS01_GR_DA]"
+                  connectionManagerID="Package.ConnectionManagers[xx.xx.xx.xx\xx.dbname.dbuser]"
+                  connectionManagerRefId="Package.ConnectionManagers[xx.xx.xx.xx\xx.dbname.dbuser]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
